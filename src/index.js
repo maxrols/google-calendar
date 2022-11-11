@@ -3,10 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { getMonth } from './utils';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-console.table(getMonth());
 root.render(
   <React.StrictMode>
     <App />
